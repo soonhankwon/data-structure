@@ -1,4 +1,4 @@
-package a_example;
+package a0_example;
 
 public class A1_Loop {
     public static void main(String[] args) {
