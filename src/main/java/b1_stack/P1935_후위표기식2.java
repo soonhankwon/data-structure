@@ -19,6 +19,7 @@ public class P1935_후위표기식2 {
             if (c != '+' && c != '-' && c != '*' && c != '/') {
                 stack.push(arr[c - 'A']);
             } else {
+                // 중요! 스택에서 먼저 pop 요소가 두번째 피연산자(op2), 그 다음 pop 요소가 첫번째 피연산자(op1)
                 double op2 = stack.pop();
                 double op1 = stack.pop();
                 switch (c) {
