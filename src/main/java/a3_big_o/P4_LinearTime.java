@@ -3,7 +3,7 @@ package a3_big_o;
 import java.util.ArrayList;
 import java.util.List;
 
-public class P4_LinearTime4 {
+public class P4_LinearTime {
     public static void main(String[] args) {
         String[] arr = new String[]{"bbc", "apple", "ascii", "banana"};
         List<String> result = selectAStrings(arr);
